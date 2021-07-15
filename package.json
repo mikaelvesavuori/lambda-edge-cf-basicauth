@@ -1,0 +1,29 @@
+{
+  "name": "lambda-edge-cf-basicauth",
+  "version": "1.0.0",
+  "description": "This is a Cloudfront Functions/Lambda@Edge function that adds 'basic auth' to your Cloudfront distribution.",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "npx sls deploy",
+    "remove": "npx sls remove"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "latest",
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "babel-loader": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "prettier": "latest",
+    "serverless": "2",
+    "serverless-offline": "latest",
+    "serverless-webpack": "5",
+    "ts-loader": "latest",
+    "ts-node": "latest",
+    "tslib": "latest",
+    "typescript": "latest",
+    "webpack": "5"
+  }
+}
